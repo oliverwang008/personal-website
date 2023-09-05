@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Personal Website Oliver</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/layout.css">
+</head>
+<body>
+    <div class="menu">
+        <div class="menuitem">
+            <a href="../index.html"><strong>Home</strong></a>
+        </div>
+        <div class="menuitem">
+            <a href="page2.html"><strong>Places I Lived</strong></a>
+        </div>
+        <div class="menuitem">
+            <a href="page3.html"><strong>Social Links</strong></a>
+        </div>
+        <div class="menuitem">
+            <a href="page4.html"><strong>Contact Me</strong></a>
+        </div>
+    </div>
+
+    <div class="content4">
+        <h1 class="head"><strong>Contact Me</strong></h1>
+        <form action="/form-handling-url" method="post">
+            <fieldset class="ff">
+                <div class="if">
+                    <div class="row">
+                        <label class="label" for="email">Your Email:</label>
+                        <input class="inputrow" type="email" id="email" name="email_address">
+                    </div>
+                    <div class="row">
+                        <label class="label" for="Subject">Subject:</label>
+                        <input class="inputrow" type="text" id="subject" name="first_name">
+                    </div class="row">
+                        <label class="label" for="comments">Message:</label>
+                        <textarea class="inputarea" id="comments" name="comments"></textarea>
+                    </div>
+
+                    <div class="checkboxarea">
+                        <input class="checkbox" type="checkbox" id="reply" name="reply" value="reply">
+                        <label class="checkboxtext" for="reply">Require response</label>
+                    </div>
+                    <div class="buttonrow">
+                        <button class="submit" type="submit">Send Message</button>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
