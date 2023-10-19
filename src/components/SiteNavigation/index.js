@@ -1,19 +1,22 @@
 import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
 import './SiteNavigation.css'
 
-function SiteNavigation({galleries}) {
-    console.log(galleries);
+function SiteNavigation() {
     return (
-        <nav>
-            <h1>Galleries</h1>
-            <NavLink to='/' exact activeClassName='active'>Home</NavLink>
-            {galleries.map((gallery)=>
-                <NavLink to={'/galleries/'+gallery.galleryid} activeClassName='active'>
-                    {gallery.name + '  '}
-                </NavLink>
-            )}
+        <nav className='menu'>
+            <NavLink to='/' exact className='menuitem' activeClassName='active'>
+                <strong>Home</strong>
+            </NavLink>
+            <NavLink to='/' exact className='menuitem' activeClassName='active'>
+                <strong>Places I Lived</strong>
+            </NavLink>
+            <NavLink to='/' exact className='menuitem' activeClassName='active'>
+                <strong>Social Links</strong>
+            </NavLink>
+            <NavLink to='/' exact className='menuitem' activeClassName='active'>
+                <strong>Contact Me</strong>
+            </NavLink>
         </nav>
-        
     )
 }
 
