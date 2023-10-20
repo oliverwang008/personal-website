@@ -6,29 +6,6 @@ NavLink {
     margin: 10px;
 }
 
-h1 {
-    font-family: Arial;
-    font-size: 22px;
-
-}
-
-h2 {
-    font-family: Arial;
-    font-size: 18px;
-
-}
-
-p {
-    font-family: Verdana;
-    font-size: 15px;
-
-}
-
-li {
-    font-family: Verdana;
-    font-size: 15px;
-}
-
 a {
     text-decoration: none;
     font-family: Verdana;
@@ -45,6 +22,7 @@ a {
     border-radius: 12px;
     border: black solid;
     background-color: rgba(0, 0, 0, 0.596);
+    min-width: 600px;
 }
 
 .menuitem {
@@ -53,19 +31,4 @@ a {
     display: inline-block;
     width: 23%;
     margin-top: 5px;
-}
-
-.content1 {
-    width: 800px;
-    margin: auto;
-    display: grid;
-    grid-template-areas:
-        'profile intro intro intro'
-        'profile intro intro intro';
-    gap: 20px;
-}
-
-.profile {
-    grid-area: profile;
-    width: 220px;
 }

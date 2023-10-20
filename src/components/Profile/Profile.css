@@ -32,3 +32,26 @@
     border: black solid;
     padding: 20px;
 }
+
+p {
+    font-family: Verdana;
+    font-size: 15px;
+
+}
+
+li {
+    font-family: Verdana;
+    font-size: 15px;
+}
+
+h1 {
+    font-family: Arial;
+    font-size: 22px;
+
+}
+
+h2 {
+    font-family: Arial;
+    font-size: 18px;
+
+}

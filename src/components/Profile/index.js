@@ -1,11 +1,12 @@
-import './Profile.css'
+import './Profile.css';
+import Image from '../../images/pic.png';
 
 function Profile() {
     return (
 
         <div className="content">
             <div className="profile">
-                <img className="pic" alt="profile" src={"../images/pic"} />
+                <img className="pic" alt="profile" src={Image} />
 
                 <div className="list">
                     <ul>
