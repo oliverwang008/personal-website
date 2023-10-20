@@ -1,4 +1,5 @@
 import SiteNavigation from './components/SiteNavigation';
+import Profile from './components/Profile';
 import { Route, Switch } from 'react-router-dom/cjs/react-router-dom.min';
 
 
@@ -8,7 +9,7 @@ function App() {
       <SiteNavigation/>
       <Switch>
         <Route exact path='/'>
-          
+          <Profile />
         </Route>
         <Route path='/places'>
           
