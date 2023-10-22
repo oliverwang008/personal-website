@@ -1,5 +1,6 @@
 import SiteNavigation from './components/SiteNavigation';
 import Profile from './components/Profile';
+import PlacesLived from './components/PlacesLived';
 import { Route, Switch } from 'react-router-dom/cjs/react-router-dom.min';
 
 
@@ -12,7 +13,7 @@ function App() {
           <Profile />
         </Route>
         <Route path='/places'>
-          
+          <PlacesLived />
         </Route>
         <Route path='/links'>
 
