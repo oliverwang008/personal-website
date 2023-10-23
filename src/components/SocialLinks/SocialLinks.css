@@ -1,0 +1,54 @@
+.content2 {
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    display: grid;
+    grid-template-areas:
+        'place1 place2 place3'
+        'place4 place5 place6';
+    gap: 10px;
+    border-radius: 20px;
+    border: black solid;
+
+}
+
+.place1 {
+    grid-area: place1;
+    margin: auto;
+}
+
+.place2 {
+    grid-area: place2;
+    margin: auto;
+}
+
+.place3 {
+    grid-area: place3;
+    margin: auto;
+}
+
+.place4 {
+    grid-area: place4;
+    margin: auto;
+}
+
+.place5 {
+    grid-area: place5;
+    margin: auto;
+}
+
+.place6 {
+    grid-area: place6;
+    margin: auto;
+}
+
+.citypic {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    border: black solid;
+}
+
+.citypic:hover {
+    border-radius: 12px;
+}
