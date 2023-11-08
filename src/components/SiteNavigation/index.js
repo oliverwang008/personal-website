@@ -10,7 +10,7 @@ function SiteNavigation() {
             <NavLink to='/places' exact className='menuitem' activeClassName='active'>
                 <strong>Places I Lived</strong>
             </NavLink>
-            <NavLink to='/' exact className='menuitem' activeClassName='active'>
+            <NavLink to='/links' exact className='menuitem' activeClassName='active'>
                 <strong>Social Links</strong>
             </NavLink>
             <NavLink to='/' exact className='menuitem' activeClassName='active'>

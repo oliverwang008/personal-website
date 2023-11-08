@@ -1,6 +1,7 @@
 import SiteNavigation from './components/SiteNavigation';
 import Profile from './components/Profile';
 import PlacesLived from './components/PlacesLived';
+import SocialLinks from './components/SocialLinks';
 import { Route, Switch } from 'react-router-dom/cjs/react-router-dom.min';
 
 
@@ -16,7 +17,7 @@ function App() {
           <PlacesLived />
         </Route>
         <Route path='/links'>
-
+          <SocialLinks />
         </Route>
         <Route path='/form'>
 
