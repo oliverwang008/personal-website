@@ -2,6 +2,7 @@ import SiteNavigation from './components/SiteNavigation';
 import Profile from './components/Profile';
 import PlacesLived from './components/PlacesLived';
 import SocialLinks from './components/SocialLinks';
+import Contact from './components/Contact';
 import { Route, Switch } from 'react-router-dom/cjs/react-router-dom.min';
 
 
@@ -19,8 +20,8 @@ function App() {
         <Route path='/links'>
           <SocialLinks />
         </Route>
-        <Route path='/form'>
-
+        <Route path='/contact'>
+          <Contact />
         </Route>
         <Route>
           <h2>Page Not Found</h2>
