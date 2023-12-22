@@ -17,7 +17,7 @@ function SocialLinks() {
                 </div>
             </a>
 
-            <a href="#">
+            <a href="https://www.facebook.com/xiao.wang.967/" target="_blank" rel="noreferrer">
                 <div className="link">
                     <img className="socialpic" src={FACEBOOK}/>
                         <div className="linktext">
