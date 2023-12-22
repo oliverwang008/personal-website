@@ -27,7 +27,7 @@ function Contact() {
                                 <label className="checkboxtext" for="reply">Require response</label>
                         </div>
                         <div className="buttonrow">
-                            <button className="submit" type="submit">Send Message</button>
+                            <button className="submit" type="submit">Submit</button>
                         </div>
                     </div>
                 </fieldset>
